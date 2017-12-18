@@ -1,0 +1,51 @@
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 18px;
+  padding: 20px;
+}
+
+p {
+  width: 500px;
+  display: block;
+  padding: 10px;
+  margin: 0
+}
+
+img {
+  width: 800px;
+}
+
+.button {
+  padding: 10px;
+  width: 70px;
+  background-color: #2b93ce;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  font-size: 20px;
+  text-align: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #2b93ce;
+}
+
+.hide {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
